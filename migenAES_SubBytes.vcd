@@ -1,0 +1,317 @@
+$var wire 8 ! SUB_data_in0 $end
+$var wire 1 " sys_clk $end
+$var wire 8 # SUB_data_in1 $end
+$var wire 8 $ SUB_data_in2 $end
+$var wire 8 % SUB_data_in3 $end
+$var wire 8 & SUB_data_in4 $end
+$var wire 8 ' SUB_data_in5 $end
+$var wire 8 ( SUB_data_in6 $end
+$var wire 8 ) SUB_data_in7 $end
+$var wire 8 * SUB_data_in8 $end
+$var wire 8 + SUB_data_in9 $end
+$var wire 8 , SUB_data_in10 $end
+$var wire 8 - SUB_data_in11 $end
+$var wire 8 . SUB_data_in12 $end
+$var wire 8 / SUB_data_in13 $end
+$var wire 8 0 SUB_data_in14 $end
+$var wire 8 1 SUB_data_in15 $end
+$var wire 1 2 SUB_valid_data_in $end
+$var wire 8 3 SUB_data_out13 $end
+$var wire 8 4 SUB_data_out14 $end
+$var wire 8 5 SUB_data_out15 $end
+$var wire 1 6 SUB_valid_data_out $end
+$var wire 8 7 SUB_data_out0 $end
+$var wire 8 8 SUB_data_out1 $end
+$var wire 8 9 SUB_data_out2 $end
+$var wire 8 : SUB_data_out3 $end
+$var wire 8 ; SUB_data_out4 $end
+$var wire 8 < SUB_data_out5 $end
+$var wire 8 = SUB_data_out6 $end
+$var wire 8 > SUB_data_out7 $end
+$var wire 8 ? SUB_data_out8 $end
+$var wire 8 @ SUB_data_out9 $end
+$var wire 8 A SUB_data_out10 $end
+$var wire 8 B SUB_data_out11 $end
+$var wire 8 C SUB_data_out12 $end
+$dumpvars
+b00000000 !
+0"
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+02
+b00000000 3
+b00000000 4
+b00000000 5
+06
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00000000 ?
+b00000000 @
+b00000000 A
+b00000000 B
+b00000000 C
+$end
+#0
+#5
+b00110001 !
+1"
+#10
+0"
+#15
+b00110010 #
+1"
+#20
+0"
+#25
+b00110011 $
+1"
+#30
+0"
+#35
+b00110100 %
+1"
+#40
+0"
+#45
+b00110101 &
+1"
+#50
+0"
+#55
+b00110110 '
+1"
+#60
+0"
+#65
+b00110111 (
+1"
+#70
+0"
+#75
+b00111000 )
+1"
+#80
+0"
+#85
+b00111001 *
+1"
+#90
+0"
+#95
+b00110000 +
+1"
+#100
+0"
+#105
+b00110001 ,
+1"
+#110
+0"
+#115
+b00110010 -
+1"
+#120
+0"
+#125
+b00110011 .
+1"
+#130
+0"
+#135
+b00110100 /
+1"
+#140
+0"
+#145
+b00110101 0
+1"
+#150
+0"
+#155
+b00110110 1
+1"
+#160
+0"
+#165
+12
+1"
+#170
+0"
+#175
+b00011000 3
+b10010110 4
+b00000101 5
+1"
+16
+b11000111 7
+b00100011 8
+b11000011 9
+b00011000 :
+b10010110 ;
+b00000101 <
+b10011010 =
+b00000111 >
+b00010010 ?
+b00000100 @
+b11000111 A
+b00100011 B
+b11000011 C
+#180
+0"
+#185
+1"
+#190
+0"
+#195
+1"
+#200
+0"
+#205
+1"
+#210
+0"
+#215
+1"
+#220
+0"
+#225
+1"
+#230
+0"
+#235
+1"
+#240
+0"
+#245
+1"
+#250
+0"
+#255
+1"
+#260
+0"
+#265
+1"
+#270
+0"
+#275
+1"
+#280
+0"
+#285
+1"
+#290
+0"
+#295
+1"
+#300
+0"
+#305
+1"
+#310
+0"
+#315
+1"
+#320
+0"
+#325
+1"
+#330
+0"
+#335
+1"
+#340
+0"
+#345
+1"
+#350
+0"
+#355
+1"
+#360
+0"
+#365
+1"
+#370
+0"
+#375
+1"
+#380
+0"
+#385
+1"
+#390
+0"
+#395
+1"
+#400
+0"
+#405
+1"
+#410
+0"
+#415
+1"
+#420
+0"
+#425
+1"
+#430
+0"
+#435
+1"
+#440
+0"
+#445
+1"
+#450
+0"
+#455
+1"
+#460
+0"
+#465
+1"
+#470
+0"
+#475
+1"
+#480
+0"
+#485
+1"
+#490
+0"
+#495
+1"
+#500
+0"
+#505
+1"
+#510
+0"
+#515
+1"
+#520
+0"
+#525
+1"

@@ -1,0 +1,107 @@
+$var wire 8 ! sm0 $end
+$var wire 8 " sm_shifted0 $end
+$var wire 8 # sm1 $end
+$var wire 8 $ sm_shifted1 $end
+$var wire 8 % sm2 $end
+$var wire 8 & sm_shifted2 $end
+$var wire 8 ' sm3 $end
+$var wire 8 ( sm_shifted3 $end
+$var wire 8 ) sm4 $end
+$var wire 8 * sm_shifted4 $end
+$var wire 8 + sm5 $end
+$var wire 8 , sm_shifted5 $end
+$var wire 8 - sm6 $end
+$var wire 8 . sm_shifted6 $end
+$var wire 8 / sm7 $end
+$var wire 8 0 sm_shifted7 $end
+$var wire 8 1 sm8 $end
+$var wire 8 2 sm_shifted8 $end
+$var wire 8 3 sm9 $end
+$var wire 8 4 sm_shifted9 $end
+$var wire 8 5 sm10 $end
+$var wire 8 6 sm_shifted10 $end
+$var wire 8 7 sm11 $end
+$var wire 8 8 sm_shifted11 $end
+$var wire 8 9 sm12 $end
+$var wire 8 : sm_shifted12 $end
+$var wire 8 ; sm13 $end
+$var wire 8 < sm_shifted13 $end
+$var wire 8 = sm14 $end
+$var wire 8 > sm_shifted14 $end
+$var wire 8 ? sm15 $end
+$var wire 8 @ sm_shifted15 $end
+$var wire 1 A sys_clk $end
+$dumpvars
+b00000000 !
+b00000000 "
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+b00000000 2
+b00000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00000000 ?
+b00000000 @
+0A
+$end
+#0
+#5
+b00110001 !
+b00110001 "
+b00110010 #
+b00110010 $
+b00110011 %
+b00110011 &
+b00110100 '
+b00110100 (
+b00110101 )
+b00110110 *
+b00110110 +
+b00110111 ,
+b00110111 -
+b00111000 .
+b00111000 /
+b00110101 0
+b00111001 1
+b00110001 2
+b00110000 3
+b00110010 4
+b00110001 5
+b00111001 6
+b00110010 7
+b00110000 8
+b00110011 9
+b00110110 :
+b00110100 ;
+b00110011 <
+b00110101 =
+b00110100 >
+b00110110 ?
+b00110101 @
+1A
+#10
+0A
+#15
+1A

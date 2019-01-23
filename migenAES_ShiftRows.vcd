@@ -1,0 +1,285 @@
+$var wire 1 ! SHIFT_valid_data_in $end
+$var wire 8 " SHIFT_data_in0 $end
+$var wire 8 # SHIFT_data_in1 $end
+$var wire 8 $ statem0 $end
+$var wire 8 % SHIFT_data_in2 $end
+$var wire 8 & statem1 $end
+$var wire 8 ' SHIFT_data_in3 $end
+$var wire 8 ( statem2 $end
+$var wire 8 ) SHIFT_data_in4 $end
+$var wire 8 * statem3 $end
+$var wire 8 + SHIFT_data_in5 $end
+$var wire 8 , statem4 $end
+$var wire 8 - SHIFT_data_in6 $end
+$var wire 8 . statem5 $end
+$var wire 8 / SHIFT_data_in7 $end
+$var wire 8 0 statem6 $end
+$var wire 8 1 SHIFT_data_in8 $end
+$var wire 8 2 statem7 $end
+$var wire 8 3 SHIFT_data_in9 $end
+$var wire 8 4 statem8 $end
+$var wire 8 5 SHIFT_data_in10 $end
+$var wire 8 6 statem9 $end
+$var wire 8 7 SHIFT_data_in11 $end
+$var wire 8 8 statem10 $end
+$var wire 8 9 SHIFT_data_in12 $end
+$var wire 8 : statem11 $end
+$var wire 8 ; SHIFT_data_in13 $end
+$var wire 8 < statem12 $end
+$var wire 8 = SHIFT_data_in14 $end
+$var wire 8 > statem13 $end
+$var wire 8 ? SHIFT_data_in15 $end
+$var wire 8 @ statem14 $end
+$var wire 1 A SHIFT_valid_data_out $end
+$var wire 8 B statem15 $end
+$var wire 1 C sys_clk $end
+$var wire 8 D SHIFT_data_out13 $end
+$var wire 8 E SHIFT_data_out14 $end
+$var wire 8 F SHIFT_data_out15 $end
+$var wire 8 G SHIFT_data_out0 $end
+$var wire 8 H SHIFT_data_out1 $end
+$var wire 8 I SHIFT_data_out2 $end
+$var wire 8 J SHIFT_data_out3 $end
+$var wire 8 K SHIFT_data_out4 $end
+$var wire 8 L SHIFT_data_out5 $end
+$var wire 8 M SHIFT_data_out6 $end
+$var wire 8 N SHIFT_data_out7 $end
+$var wire 8 O SHIFT_data_out8 $end
+$var wire 8 P SHIFT_data_out9 $end
+$var wire 8 Q SHIFT_data_out10 $end
+$var wire 8 R SHIFT_data_out11 $end
+$var wire 8 S SHIFT_data_out12 $end
+$dumpvars
+0!
+b00000000 "
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+b00000000 2
+b00000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00000000 ?
+b00000000 @
+0A
+b00000000 B
+0C
+b00000000 D
+b00000000 E
+b00000000 F
+b00000000 G
+b00000000 H
+b00000000 I
+b00000000 J
+b00000000 K
+b00000000 L
+b00000000 M
+b00000000 N
+b00000000 O
+b00000000 P
+b00000000 Q
+b00000000 R
+b00000000 S
+$end
+#0
+#5
+1!
+b00110001 "
+b00110010 #
+b00110001 $
+b00110011 %
+b00110101 &
+b00110100 '
+b00111001 (
+b00110101 )
+b00110011 *
+b00110110 +
+b00110010 ,
+b00110111 -
+b00110110 .
+b00111000 /
+b00110000 0
+b00111001 1
+b00110100 2
+b00110000 3
+b00110011 4
+b00110001 5
+b00110111 6
+b00110010 7
+b00110001 8
+b00110011 9
+b00110101 :
+b00110100 ;
+b00110100 <
+b00110101 =
+b00111000 >
+b00110110 ?
+b00110010 @
+1A
+b00110110 B
+1C
+#10
+0C
+#15
+b00110100 D
+b00111000 E
+b00110010 F
+b00110001 G
+b00110101 H
+1C
+b00111001 I
+b00110011 J
+b00110110 K
+b00110000 L
+b00110100 M
+b00110010 N
+b00110001 O
+b00110101 P
+b00110011 Q
+b00110111 R
+b00110110 S
+#20
+0C
+#25
+1C
+#30
+0C
+#35
+1C
+#40
+0C
+#45
+1C
+#50
+0C
+#55
+1C
+#60
+0C
+#65
+1C
+#70
+0C
+#75
+1C
+#80
+0C
+#85
+1C
+#90
+0C
+#95
+1C
+#100
+0C
+#105
+1C
+#110
+0C
+#115
+1C
+#120
+0C
+#125
+1C
+#130
+0C
+#135
+1C
+#140
+0C
+#145
+1C
+#150
+0C
+#155
+1C
+#160
+0C
+#165
+1C
+#170
+0C
+#175
+1C
+#180
+0C
+#185
+1C
+#190
+0C
+#195
+1C
+#200
+0C
+#205
+1C
+#210
+0C
+#215
+1C
+#220
+0C
+#225
+1C
+#230
+0C
+#235
+1C
+#240
+0C
+#245
+1C
+#250
+0C
+#255
+1C
+#260
+0C
+#265
+1C
+#270
+0C
+#275
+1C
+#280
+0C
+#285
+1C
+#290
+0C
+#295
+1C
+#300
+0C
+#305
+1C
+#310
+0C
+#315
+1C
+#320
+0C
+#325
+1C

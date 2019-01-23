@@ -1,0 +1,420 @@
+$var wire 1 ! ARK_valid_text_in $end
+$var wire 8 " ARK_text_in0 $end
+$var wire 8 # ARK_text_in1 $end
+$var wire 8 $ ARK_text_in2 $end
+$var wire 8 % ARK_text_in3 $end
+$var wire 8 & ARK_text_in4 $end
+$var wire 8 ' ARK_text_in5 $end
+$var wire 8 ( ARK_text_in6 $end
+$var wire 8 ) ARK_text_in7 $end
+$var wire 8 * ARK_text_in8 $end
+$var wire 8 + ARK_text_in9 $end
+$var wire 8 , ARK_text_in10 $end
+$var wire 8 - ARK_text_in11 $end
+$var wire 8 . ARK_text_in12 $end
+$var wire 8 / ARK_text_in13 $end
+$var wire 8 0 ARK_text_in14 $end
+$var wire 8 1 ARK_text_in15 $end
+$var wire 1 2 ARK_valid_rkey $end
+$var wire 8 3 ARK_round_key_in0 $end
+$var wire 8 4 ARK_round_key_in1 $end
+$var wire 8 5 ARK_round_key_in2 $end
+$var wire 8 6 ARK_round_key_in3 $end
+$var wire 8 7 ARK_round_key_in4 $end
+$var wire 8 8 ARK_round_key_in5 $end
+$var wire 8 9 ARK_round_key_in6 $end
+$var wire 8 : ARK_round_key_in7 $end
+$var wire 8 ; ARK_round_key_in8 $end
+$var wire 8 < ARK_round_key_in9 $end
+$var wire 1 = sys_clk $end
+$var wire 8 > ARK_round_key_in10 $end
+$var wire 8 ? ARK_round_key_in11 $end
+$var wire 8 @ ARK_round_key_in12 $end
+$var wire 8 A ARK_round_key_in13 $end
+$var wire 8 B ARK_round_key_in14 $end
+$var wire 8 C ARK_round_key_in15 $end
+$var wire 1 D ARK_valid_data_out $end
+$var wire 8 E ARK_data_out0 $end
+$var wire 8 F ARK_data_out1 $end
+$var wire 8 G ARK_data_out2 $end
+$var wire 8 H ARK_data_out3 $end
+$var wire 8 I ARK_data_out4 $end
+$var wire 8 J ARK_data_out5 $end
+$var wire 8 K ARK_data_out6 $end
+$var wire 8 L ARK_data_out7 $end
+$var wire 8 M ARK_data_out8 $end
+$var wire 8 N ARK_data_out9 $end
+$var wire 8 O ARK_data_out10 $end
+$var wire 8 P ARK_data_out11 $end
+$var wire 8 Q ARK_data_out12 $end
+$var wire 8 R ARK_data_out13 $end
+$var wire 8 S ARK_data_out14 $end
+$var wire 8 T ARK_data_out15 $end
+$dumpvars
+0!
+b00000000 "
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+02
+b00000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+0=
+b00000000 >
+b00000000 ?
+b00000000 @
+b00000000 A
+b00000000 B
+b00000000 C
+0D
+b00000000 E
+b00000000 F
+b00000000 G
+b00000000 H
+b00000000 I
+b00000000 J
+b00000000 K
+b00000000 L
+b00000000 M
+b00000000 N
+b00000000 O
+b00000000 P
+b00000000 Q
+b00000000 R
+b00000000 S
+b00000000 T
+$end
+#0
+#5
+1!
+b00000001 "
+b00000001 #
+b00000001 $
+b00000001 %
+b00000001 &
+b00000001 '
+b00000001 (
+b00000001 )
+b00000001 *
+b00000001 +
+b00000001 ,
+b00000001 -
+b00000001 .
+b00000001 /
+b00000001 0
+b00000001 1
+12
+b00000001 3
+b00000001 4
+b00000001 5
+b00000001 6
+b00000001 7
+b00000001 8
+b00000001 9
+b00000001 :
+b00000001 ;
+b00000001 <
+1=
+b00000001 >
+b00000001 ?
+b00000001 @
+b00000001 A
+b00000001 B
+b00000001 C
+#10
+0=
+#15
+1D
+b00000001 E
+b00000001 F
+b00000001 G
+b00000001 H
+b00000001 I
+b00000001 J
+b00000001 K
+b00000001 L
+b00000001 M
+b00000001 N
+b00000001 O
+b00000001 P
+b00000001 Q
+b00000001 R
+b00000001 S
+b00000001 T
+1=
+#20
+0=
+#25
+1=
+#30
+0=
+#35
+1=
+#40
+0=
+#45
+1=
+#50
+0=
+#55
+1=
+#60
+0=
+#65
+1=
+#70
+0=
+#75
+1=
+#80
+0=
+#85
+1=
+#90
+0=
+#95
+1=
+#100
+0=
+#105
+1=
+#110
+0=
+#115
+1=
+#120
+0=
+#125
+1=
+#130
+0=
+#135
+1=
+#140
+0=
+#145
+1=
+#150
+0=
+#155
+1=
+#160
+0=
+#165
+1=
+#170
+0=
+#175
+1=
+#180
+0=
+#185
+1=
+#190
+0=
+#195
+1=
+#200
+0=
+#205
+1=
+#210
+0=
+#215
+1=
+#220
+0=
+#225
+1=
+#230
+0=
+#235
+1=
+#240
+0=
+#245
+1=
+#250
+0=
+#255
+1=
+#260
+0=
+#265
+1=
+#270
+0=
+#275
+1=
+#280
+0=
+#285
+1=
+#290
+0=
+#295
+1=
+#300
+0=
+#305
+1=
+#310
+0=
+#315
+1=
+#320
+0=
+#325
+1=
+#330
+0=
+#335
+1=
+#340
+0=
+#345
+1=
+#350
+0=
+#355
+1=
+#360
+0=
+#365
+1=
+#370
+0=
+#375
+1=
+#380
+0=
+#385
+1=
+#390
+0=
+#395
+1=
+#400
+0=
+#405
+1=
+#410
+0=
+#415
+1=
+#420
+0=
+#425
+1=
+#430
+0=
+#435
+1=
+#440
+0=
+#445
+1=
+#450
+0=
+#455
+1=
+#460
+0=
+#465
+1=
+#470
+0=
+#475
+1=
+#480
+0=
+#485
+1=
+#490
+0=
+#495
+1=
+#500
+0=
+#505
+1=
+#510
+0=
+#515
+1=
+#520
+0=
+#525
+1=
+#530
+0=
+#535
+1=
+#540
+0=
+#545
+1=
+#550
+0=
+#555
+1=
+#560
+0=
+#565
+1=
+#570
+0=
+#575
+1=
+#580
+0=
+#585
+1=
+#590
+0=
+#595
+1=
+#600
+0=
+#605
+1=
+#610
+0=
+#615
+1=
+#620
+0=
+#625
+1=
+#630
+0=
+#635
+1=
+#640
+0=
+#645
+1=
+#650
+0=
+#655
+1=

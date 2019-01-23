@@ -1,0 +1,1032 @@
+$var wire 1 ! ROUND_valid_data_in $end
+$var wire 8 " ROUND_data_in0 $end
+$var wire 8 # ROUND_data_in1 $end
+$var wire 8 $ ROUND_data_in2 $end
+$var wire 8 % ROUND_data_in3 $end
+$var wire 8 & ROUND_data_in4 $end
+$var wire 8 ' ROUND_data_in5 $end
+$var wire 8 ( ROUND_data_in6 $end
+$var wire 8 ) ROUND_data_in7 $end
+$var wire 8 * ROUND_data_in8 $end
+$var wire 8 + ROUND_data_in9 $end
+$var wire 8 , ROUND_data_in10 $end
+$var wire 8 - ROUND_data_in11 $end
+$var wire 8 . ROUND_data_in12 $end
+$var wire 8 / ROUND_data_in13 $end
+$var wire 8 0 ROUND_data_in14 $end
+$var wire 8 1 ROUND_data_in15 $end
+$var wire 1 2 ROUND_valid_key_in $end
+$var wire 8 3 ROUND_round_key0 $end
+$var wire 8 4 ROUND_round_key1 $end
+$var wire 8 5 ROUND_round_key2 $end
+$var wire 8 6 ROUND_round_key3 $end
+$var wire 8 7 ROUND_round_key4 $end
+$var wire 8 8 ROUND_round_key5 $end
+$var wire 8 9 ROUND_round_key6 $end
+$var wire 8 : ROUND_round_key7 $end
+$var wire 8 ; ROUND_round_key8 $end
+$var wire 8 < ROUND_round_key9 $end
+$var wire 8 = ROUND_round_key10 $end
+$var wire 8 > ROUND_round_key11 $end
+$var wire 8 ? ROUND_round_key12 $end
+$var wire 8 @ ROUND_round_key13 $end
+$var wire 8 A ROUND_round_key14 $end
+$var wire 8 B ROUND_round_key15 $end
+$var wire 1 C sys_clk $end
+$var wire 1 D M_MIX_MIX_valid_data_out $end
+$var wire 1 E M_SR_SHIFT_valid_data_out $end
+$var wire 1 F ROUND_valid_data_out $end
+$var wire 1 G valid_shift2mix $end
+$var wire 1 H SUB_valid_data_in $end
+$var wire 8 I SUB_data_in0 $end
+$var wire 8 J SUB_data_in1 $end
+$var wire 8 K SUB_data_in2 $end
+$var wire 8 L SUB_data_in3 $end
+$var wire 8 M SUB_data_in4 $end
+$var wire 8 N SUB_data_in5 $end
+$var wire 8 O SUB_data_in6 $end
+$var wire 8 P SUB_data_in7 $end
+$var wire 8 Q SUB_data_in8 $end
+$var wire 8 R SUB_data_in9 $end
+$var wire 8 S SUB_data_in10 $end
+$var wire 8 T SUB_data_in11 $end
+$var wire 8 U SUB_data_in12 $end
+$var wire 8 V SUB_data_in13 $end
+$var wire 8 W SUB_data_in14 $end
+$var wire 8 X SUB_data_in15 $end
+$var wire 8 Y SUB_data_out8 $end
+$var wire 8 Z SUB_data_out9 $end
+$var wire 8 [ SUB_data_out10 $end
+$var wire 8 \ SUB_data_out11 $end
+$var wire 8 ] SUB_data_out12 $end
+$var wire 8 ^ SUB_data_out13 $end
+$var wire 8 _ SUB_data_out14 $end
+$var wire 8 ` SUB_data_out15 $end
+$var wire 1 a M_MIX_MIX_valid_data_in $end
+$var wire 1 b SUB_valid_data_out $end
+$var wire 8 c SUB_data_out0 $end
+$var wire 8 d SUB_data_out1 $end
+$var wire 8 e SUB_data_out2 $end
+$var wire 8 f SUB_data_out3 $end
+$var wire 8 g SUB_data_out4 $end
+$var wire 8 h SUB_data_out5 $end
+$var wire 8 i SUB_data_out6 $end
+$var wire 8 j SUB_data_out7 $end
+$var wire 8 k data_sub2shift0 $end
+$var wire 8 l data_sub2shift1 $end
+$var wire 8 m data_sub2shift2 $end
+$var wire 8 n data_sub2shift3 $end
+$var wire 8 o data_sub2shift4 $end
+$var wire 8 p data_sub2shift5 $end
+$var wire 8 q data_sub2shift6 $end
+$var wire 8 r data_sub2shift7 $end
+$var wire 8 s data_sub2shift8 $end
+$var wire 8 t data_sub2shift9 $end
+$var wire 8 u data_sub2shift10 $end
+$var wire 8 v data_sub2shift11 $end
+$var wire 8 w data_sub2shift12 $end
+$var wire 8 x data_sub2shift13 $end
+$var wire 8 y data_sub2shift14 $end
+$var wire 8 z data_sub2shift15 $end
+$var wire 1 { valid_sub2shift $end
+$var wire 1 | M_SR_SHIFT_valid_data_in $end
+$var wire 8 } M_SR_SHIFT_data_in0 $end
+$var wire 8 ~ M_SR_SHIFT_data_in1 $end
+$var wire 8 "! M_SR_statem0 $end
+$var wire 8 "" M_SR_SHIFT_data_in2 $end
+$var wire 8 "# M_SR_statem1 $end
+$var wire 8 "$ M_SR_SHIFT_data_in3 $end
+$var wire 8 "% M_SR_statem2 $end
+$var wire 8 "& M_SR_SHIFT_data_in4 $end
+$var wire 8 "' M_SR_statem3 $end
+$var wire 8 "( M_SR_SHIFT_data_in5 $end
+$var wire 8 ") M_SR_statem4 $end
+$var wire 8 "* M_SR_SHIFT_data_in6 $end
+$var wire 8 "+ M_SR_statem5 $end
+$var wire 8 ", M_SR_SHIFT_data_in7 $end
+$var wire 8 "- M_SR_statem6 $end
+$var wire 8 ". M_SR_SHIFT_data_in8 $end
+$var wire 8 "/ M_SR_statem7 $end
+$var wire 8 "0 M_SR_SHIFT_data_in9 $end
+$var wire 8 "1 M_SR_statem8 $end
+$var wire 8 "2 M_SR_SHIFT_data_in10 $end
+$var wire 8 "3 M_SR_statem9 $end
+$var wire 8 "4 M_SR_SHIFT_data_in11 $end
+$var wire 8 "5 M_SR_statem10 $end
+$var wire 8 "6 M_SR_SHIFT_data_in12 $end
+$var wire 8 "7 M_SR_statem11 $end
+$var wire 8 "8 M_SR_SHIFT_data_in13 $end
+$var wire 8 "9 M_SR_statem12 $end
+$var wire 8 ": M_SR_SHIFT_data_in14 $end
+$var wire 8 "; M_SR_statem13 $end
+$var wire 8 "< M_SR_SHIFT_data_in15 $end
+$var wire 8 "= M_SR_statem14 $end
+$var wire 8 "> M_SR_statem15 $end
+$var wire 8 "? M_SR_SHIFT_data_out6 $end
+$var wire 8 "@ M_SR_SHIFT_data_out7 $end
+$var wire 8 "A M_SR_SHIFT_data_out8 $end
+$var wire 8 "B M_SR_SHIFT_data_out9 $end
+$var wire 8 "C M_SR_SHIFT_data_out10 $end
+$var wire 8 "D M_SR_SHIFT_data_out11 $end
+$var wire 8 "E M_SR_SHIFT_data_out12 $end
+$var wire 8 "F M_SR_SHIFT_data_out13 $end
+$var wire 8 "G M_SR_SHIFT_data_out14 $end
+$var wire 8 "H M_SR_SHIFT_data_out15 $end
+$var wire 8 "I M_SR_SHIFT_data_out0 $end
+$var wire 8 "J M_SR_SHIFT_data_out1 $end
+$var wire 8 "K M_SR_SHIFT_data_out2 $end
+$var wire 8 "L M_SR_SHIFT_data_out3 $end
+$var wire 8 "M M_SR_SHIFT_data_out4 $end
+$var wire 8 "N M_SR_SHIFT_data_out5 $end
+$var wire 8 "O data_shift2mix0 $end
+$var wire 8 "P data_shift2mix1 $end
+$var wire 8 "Q data_shift2mix2 $end
+$var wire 8 "R data_shift2mix3 $end
+$var wire 8 "S data_shift2mix4 $end
+$var wire 8 "T data_shift2mix5 $end
+$var wire 8 "U data_shift2mix6 $end
+$var wire 8 "V data_shift2mix7 $end
+$var wire 8 "W data_shift2mix8 $end
+$var wire 8 "X data_shift2mix9 $end
+$var wire 8 "Y data_shift2mix10 $end
+$var wire 8 "Z data_shift2mix11 $end
+$var wire 8 "[ data_shift2mix12 $end
+$var wire 8 "\ data_shift2mix13 $end
+$var wire 8 "] data_shift2mix14 $end
+$var wire 8 "^ data_shift2mix15 $end
+$var wire 8 "_ M_MIX_statem2 $end
+$var wire 8 "` M_MIX_MIX_data_in4 $end
+$var wire 8 "a M_MIX_statem3 $end
+$var wire 8 "b M_MIX_MIX_data_in5 $end
+$var wire 8 "c M_MIX_MIX_data_in6 $end
+$var wire 8 "d M_MIX_statem4 $end
+$var wire 8 "e M_MIX_MIX_data_in7 $end
+$var wire 8 "f M_MIX_statem5 $end
+$var wire 8 "g M_MIX_MIX_data_in8 $end
+$var wire 8 "h M_MIX_statem6 $end
+$var wire 8 "i M_MIX_MIX_data_in9 $end
+$var wire 8 "j M_MIX_statem7 $end
+$var wire 8 "k M_MIX_MIX_data_in10 $end
+$var wire 8 "l M_MIX_statem8 $end
+$var wire 8 "m M_MIX_MIX_data_in11 $end
+$var wire 8 "n M_MIX_statem9 $end
+$var wire 8 "o M_MIX_MIX_data_in12 $end
+$var wire 8 "p M_MIX_statem10 $end
+$var wire 8 "q M_MIX_MIX_data_in13 $end
+$var wire 8 "r M_MIX_statem11 $end
+$var wire 8 "s M_MIX_MIX_data_in14 $end
+$var wire 8 "t M_MIX_statem12 $end
+$var wire 8 "u M_MIX_MIX_data_in15 $end
+$var wire 8 "v M_MIX_statem13 $end
+$var wire 8 "w M_MIX_statem14 $end
+$var wire 8 "x M_MIX_statem15 $end
+$var wire 8 "y M_MIX_MIX_data_in0 $end
+$var wire 8 "z M_MIX_MIX_data_in1 $end
+$var wire 8 "{ M_MIX_statem0 $end
+$var wire 8 "| M_MIX_MIX_data_in2 $end
+$var wire 8 "} M_MIX_statem1 $end
+$var wire 8 "~ M_MIX_MIX_data_in3 $end
+$var wire 8 #! M_MIX_state_mulx20 $end
+$var wire 8 #" M_MIX_state_mulx21 $end
+$var wire 8 ## M_MIX_state_mulx22 $end
+$var wire 8 #$ M_MIX_state_mulx23 $end
+$var wire 8 #% M_MIX_state_mulx24 $end
+$var wire 8 #& M_MIX_state_mulx25 $end
+$var wire 8 #' M_MIX_state_mulx26 $end
+$var wire 8 #( M_MIX_state_mulx27 $end
+$var wire 8 #) M_MIX_state_mulx28 $end
+$var wire 8 #* M_MIX_state_mulx29 $end
+$var wire 8 #+ M_MIX_state_mulx210 $end
+$var wire 8 #, M_MIX_state_mulx211 $end
+$var wire 8 #- M_MIX_state_mulx212 $end
+$var wire 8 #. M_MIX_state_mulx213 $end
+$var wire 8 #/ M_MIX_state_mulx214 $end
+$var wire 8 #0 M_MIX_state_mulx215 $end
+$var wire 8 #1 M_MIX_state_mulx30 $end
+$var wire 8 #2 M_MIX_state_mulx31 $end
+$var wire 8 #3 M_MIX_state_mulx32 $end
+$var wire 8 #4 M_MIX_state_mulx33 $end
+$var wire 8 #5 M_MIX_state_mulx34 $end
+$var wire 8 #6 M_MIX_state_mulx35 $end
+$var wire 8 #7 M_MIX_state_mulx36 $end
+$var wire 8 #8 M_MIX_state_mulx37 $end
+$var wire 8 #9 M_MIX_state_mulx38 $end
+$var wire 8 #: M_MIX_state_mulx39 $end
+$var wire 8 #; M_MIX_state_mulx310 $end
+$var wire 8 #< M_MIX_state_mulx311 $end
+$var wire 8 #= M_MIX_state_mulx312 $end
+$var wire 8 #> M_MIX_state_mulx313 $end
+$var wire 8 #? M_MIX_state_mulx314 $end
+$var wire 8 #@ M_MIX_state_mulx315 $end
+$var wire 8 #A M_MIX_MIX_data_out1 $end
+$var wire 8 #B M_MIX_MIX_data_out2 $end
+$var wire 8 #C M_MIX_MIX_data_out3 $end
+$var wire 8 #D M_MIX_MIX_data_out5 $end
+$var wire 8 #E M_MIX_MIX_data_out6 $end
+$var wire 8 #F M_MIX_MIX_data_out7 $end
+$var wire 8 #G M_MIX_MIX_data_out9 $end
+$var wire 8 #H M_MIX_MIX_data_out10 $end
+$var wire 8 #I M_MIX_MIX_data_out11 $end
+$var wire 8 #J M_MIX_MIX_data_out13 $end
+$var wire 8 #K M_MIX_MIX_data_out14 $end
+$var wire 8 #L M_MIX_MIX_data_out15 $end
+$var wire 8 #M ROUND_data_out1 $end
+$var wire 8 #N ROUND_data_out2 $end
+$var wire 8 #O ROUND_data_out3 $end
+$var wire 8 #P ROUND_data_out5 $end
+$var wire 8 #Q ROUND_data_out6 $end
+$var wire 8 #R ROUND_data_out7 $end
+$var wire 8 #S ROUND_data_out9 $end
+$var wire 8 #T ROUND_data_out10 $end
+$var wire 8 #U ROUND_data_out11 $end
+$var wire 8 #V ROUND_data_out13 $end
+$var wire 8 #W ROUND_data_out14 $end
+$var wire 8 #X ROUND_data_out15 $end
+$dumpvars
+0!
+b00000000 "
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+02
+b00000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00000000 ?
+b00000000 @
+b00000000 A
+b00000000 B
+0C
+0D
+0E
+0F
+0G
+0H
+b00000000 I
+b00000000 J
+b00000000 K
+b00000000 L
+b00000000 M
+b00000000 N
+b00000000 O
+b00000000 P
+b00000000 Q
+b00000000 R
+b00000000 S
+b00000000 T
+b00000000 U
+b00000000 V
+b00000000 W
+b00000000 X
+b00000000 Y
+b00000000 Z
+b00000000 [
+b00000000 \
+b00000000 ]
+b00000000 ^
+b00000000 _
+b00000000 `
+0a
+0b
+b00000000 c
+b00000000 d
+b00000000 e
+b00000000 f
+b00000000 g
+b00000000 h
+b00000000 i
+b00000000 j
+b00000000 k
+b00000000 l
+b00000000 m
+b00000000 n
+b00000000 o
+b00000000 p
+b00000000 q
+b00000000 r
+b00000000 s
+b00000000 t
+b00000000 u
+b00000000 v
+b00000000 w
+b00000000 x
+b00000000 y
+b00000000 z
+0{
+0|
+b00000000 }
+b00000000 ~
+b00000000 "!
+b00000000 ""
+b00000000 "#
+b00000000 "$
+b00000000 "%
+b00000000 "&
+b00000000 "'
+b00000000 "(
+b00000000 ")
+b00000000 "*
+b00000000 "+
+b00000000 ",
+b00000000 "-
+b00000000 ".
+b00000000 "/
+b00000000 "0
+b00000000 "1
+b00000000 "2
+b00000000 "3
+b00000000 "4
+b00000000 "5
+b00000000 "6
+b00000000 "7
+b00000000 "8
+b00000000 "9
+b00000000 ":
+b00000000 ";
+b00000000 "<
+b00000000 "=
+b00000000 ">
+b00000000 "?
+b00000000 "@
+b00000000 "A
+b00000000 "B
+b00000000 "C
+b00000000 "D
+b00000000 "E
+b00000000 "F
+b00000000 "G
+b00000000 "H
+b00000000 "I
+b00000000 "J
+b00000000 "K
+b00000000 "L
+b00000000 "M
+b00000000 "N
+b00000000 "O
+b00000000 "P
+b00000000 "Q
+b00000000 "R
+b00000000 "S
+b00000000 "T
+b00000000 "U
+b00000000 "V
+b00000000 "W
+b00000000 "X
+b00000000 "Y
+b00000000 "Z
+b00000000 "[
+b00000000 "\
+b00000000 "]
+b00000000 "^
+b00000000 "_
+b00000000 "`
+b00000000 "a
+b00000000 "b
+b00000000 "c
+b00000000 "d
+b00000000 "e
+b00000000 "f
+b00000000 "g
+b00000000 "h
+b00000000 "i
+b00000000 "j
+b00000000 "k
+b00000000 "l
+b00000000 "m
+b00000000 "n
+b00000000 "o
+b00000000 "p
+b00000000 "q
+b00000000 "r
+b00000000 "s
+b00000000 "t
+b00000000 "u
+b00000000 "v
+b00000000 "w
+b00000000 "x
+b00000000 "y
+b00000000 "z
+b00000000 "{
+b00000000 "|
+b00000000 "}
+b00000000 "~
+b00000000 #!
+b00000000 #"
+b00000000 ##
+b00000000 #$
+b00000000 #%
+b00000000 #&
+b00000000 #'
+b00000000 #(
+b00000000 #)
+b00000000 #*
+b00000000 #+
+b00000000 #,
+b00000000 #-
+b00000000 #.
+b00000000 #/
+b00000000 #0
+b00000000 #1
+b00000000 #2
+b00000000 #3
+b00000000 #4
+b00000000 #5
+b00000000 #6
+b00000000 #7
+b00000000 #8
+b00000000 #9
+b00000000 #:
+b00000000 #;
+b00000000 #<
+b00000000 #=
+b00000000 #>
+b00000000 #?
+b00000000 #@
+b00000000 #A
+b00000000 #B
+b00000000 #C
+b00000000 #D
+b00000000 #E
+b00000000 #F
+b00000000 #G
+b00000000 #H
+b00000000 #I
+b00000000 #J
+b00000000 #K
+b00000000 #L
+b00000000 #M
+b00000000 #N
+b00000000 #O
+b00000000 #P
+b00000000 #Q
+b00000000 #R
+b00000000 #S
+b00000000 #T
+b00000000 #U
+b00000000 #V
+b00000000 #W
+b00000000 #X
+$end
+#0
+#5
+1!
+b00000001 "
+b00000001 #
+b00000001 $
+b00000001 %
+b00000001 &
+b00000001 '
+b00000001 (
+b00000001 )
+b00000001 *
+b00000001 +
+b00000001 ,
+b00000001 -
+b00000001 .
+b00000001 /
+b00000001 0
+b00000001 1
+12
+b00000001 3
+b00000001 4
+b00000001 5
+b00000001 6
+b00000001 7
+b00000001 8
+b00000001 9
+b00000001 :
+b00000001 ;
+b00000001 <
+b00000001 =
+b00000001 >
+b00000001 ?
+b00000001 @
+b00000001 A
+b00000001 B
+1C
+1D
+1E
+#10
+0C
+#15
+1F
+1C
+1G
+1H
+b00000001 I
+b00000001 J
+b00000001 K
+b00000001 L
+b00000001 M
+b00000001 N
+b00000001 O
+b00000001 P
+b00000001 Q
+b00000001 R
+b00000001 S
+b00000001 T
+b00000001 U
+b00000001 V
+b00000001 W
+b00000001 X
+#20
+0C
+#25
+b01111100 Y
+b01111100 Z
+b01111100 [
+b01111100 \
+b01111100 ]
+b01111100 ^
+b01111100 _
+b01111100 `
+1a
+1C
+1b
+b01111100 c
+b01111100 d
+b01111100 e
+b01111100 f
+b01111100 g
+b01111100 h
+b01111100 i
+b01111100 j
+#30
+0C
+#35
+b01111100 k
+b01111100 l
+b01111100 m
+b01111100 n
+b01111100 o
+b01111100 p
+b01111100 q
+b01111100 r
+b01111100 s
+b01111100 t
+b01111100 u
+b01111100 v
+b01111100 w
+b01111100 x
+b01111100 y
+b01111100 z
+1C
+1{
+#40
+0C
+#45
+1C
+1|
+b01111100 }
+b01111100 ~
+b01111100 "!
+b01111100 ""
+b01111100 "#
+b01111100 "$
+b01111100 "%
+b01111100 "&
+b01111100 "'
+b01111100 "(
+b01111100 ")
+b01111100 "*
+b01111100 "+
+b01111100 ",
+b01111100 "-
+b01111100 ".
+b01111100 "/
+b01111100 "0
+b01111100 "1
+b01111100 "2
+b01111100 "3
+b01111100 "4
+b01111100 "5
+b01111100 "6
+b01111100 "7
+b01111100 "8
+b01111100 "9
+b01111100 ":
+b01111100 ";
+b01111100 "<
+b01111100 "=
+b01111100 ">
+#50
+0C
+#55
+b01111100 "?
+b01111100 "@
+1C
+b01111100 "A
+b01111100 "B
+b01111100 "C
+b01111100 "D
+b01111100 "E
+b01111100 "F
+b01111100 "G
+b01111100 "H
+b01111100 "I
+b01111100 "J
+b01111100 "K
+b01111100 "L
+b01111100 "M
+b01111100 "N
+#60
+0C
+#65
+1C
+b01111100 "O
+b01111100 "P
+b01111100 "Q
+b01111100 "R
+b01111100 "S
+b01111100 "T
+b01111100 "U
+b01111100 "V
+b01111100 "W
+b01111100 "X
+b01111100 "Y
+b01111100 "Z
+b01111100 "[
+b01111100 "\
+b01111100 "]
+b01111100 "^
+#70
+0C
+#75
+b01111100 "_
+b01111100 "`
+b01111100 "a
+b01111100 "b
+1C
+b01111100 "c
+b01111100 "d
+b01111100 "e
+b01111100 "f
+b01111100 "g
+b01111100 "h
+b01111100 "i
+b01111100 "j
+b01111100 "k
+b01111100 "l
+b01111100 "m
+b01111100 "n
+b01111100 "o
+b01111100 "p
+b01111100 "q
+b01111100 "r
+b01111100 "s
+b01111100 "t
+b01111100 "u
+b01111100 "v
+b01111100 "w
+b01111100 "x
+b01111100 "y
+b01111100 "z
+b01111100 "{
+b01111100 "|
+b01111100 "}
+b01111100 "~
+#80
+0C
+#85
+b11111000 #!
+b11111000 #"
+b11111000 ##
+b11111000 #$
+b11111000 #%
+b11111000 #&
+b11111000 #'
+b11111000 #(
+b11111000 #)
+b11111000 #*
+b11111000 #+
+b11111000 #,
+b11111000 #-
+b11111000 #.
+b11111000 #/
+b11111000 #0
+b01111100 #1
+b01111100 #2
+b01111100 #3
+b01111100 #4
+b01111100 #5
+1C
+b01111100 #6
+b01111100 #7
+b01111100 #8
+b01111100 #9
+b01111100 #:
+b01111100 #;
+b01111100 #<
+b01111100 #=
+b01111100 #>
+b01111100 #?
+b01111100 #@
+#90
+0C
+#95
+b10000100 #4
+b10000100 #5
+1C
+b10000100 #6
+b10000100 #7
+b10000100 #8
+b10000100 #9
+b10000100 #:
+b10000100 #;
+b10000100 #<
+b10000100 #=
+b10000100 #>
+b10000100 #?
+b10000100 #@
+b10000100 #A
+b10000100 #B
+b10000100 #C
+b10000100 #D
+b10000100 #E
+b10000100 #F
+b10000100 #G
+b10000100 #H
+b10000100 #I
+b10000100 #J
+b10000100 #K
+b10000100 #L
+b10000100 #1
+b10000100 #2
+b10000100 #3
+#100
+0C
+#105
+1C
+b10000100 #M
+b10000100 #N
+b10000100 #O
+b10000100 #P
+b10000100 #Q
+b10000100 #R
+b10000100 #S
+b10000100 #T
+b10000100 #U
+b01111100 #A
+b01111100 #B
+b10000100 #V
+b01111100 #C
+b10000100 #W
+b10000100 #X
+b01111100 #D
+b01111100 #E
+b01111100 #F
+b01111100 #G
+b01111100 #H
+b01111100 #I
+b01111100 #J
+b01111100 #K
+b01111100 #L
+#110
+0C
+#115
+b01111100 #V
+b01111100 #W
+b01111100 #X
+1C
+b01111100 #M
+b01111100 #N
+b01111100 #O
+b01111100 #P
+b01111100 #Q
+b01111100 #R
+b01111100 #S
+b01111100 #T
+b01111100 #U
+#120
+0C
+#125
+1C
+#130
+0C
+#135
+1C
+#140
+0C
+#145
+1C
+#150
+0C
+#155
+1C
+#160
+0C
+#165
+1C
+#170
+0C
+#175
+1C
+#180
+0C
+#185
+1C
+#190
+0C
+#195
+1C
+#200
+0C
+#205
+1C
+#210
+0C
+#215
+1C
+#220
+0C
+#225
+1C
+#230
+0C
+#235
+1C
+#240
+0C
+#245
+1C
+#250
+0C
+#255
+1C
+#260
+0C
+#265
+1C
+#270
+0C
+#275
+1C
+#280
+0C
+#285
+1C
+#290
+0C
+#295
+1C
+#300
+0C
+#305
+1C
+#310
+0C
+#315
+1C
+#320
+0C
+#325
+1C
+#330
+0C
+#335
+1C
+#340
+0C
+#345
+1C
+#350
+0C
+#355
+1C
+#360
+0C
+#365
+1C
+#370
+0C
+#375
+1C
+#380
+0C
+#385
+1C
+#390
+0C
+#395
+1C
+#400
+0C
+#405
+1C
+#410
+0C
+#415
+1C
+#420
+0C
+#425
+1C
+#430
+0C
+#435
+1C
+#440
+0C
+#445
+1C
+#450
+0C
+#455
+1C
+#460
+0C
+#465
+1C
+#470
+0C
+#475
+1C
+#480
+0C
+#485
+1C
+#490
+0C
+#495
+1C
+#500
+0C
+#505
+1C
+#510
+0C
+#515
+1C
+#520
+0C
+#525
+1C
+#530
+0C
+#535
+1C
+#540
+0C
+#545
+1C
+#550
+0C
+#555
+1C
+#560
+0C
+#565
+1C
+#570
+0C
+#575
+1C
+#580
+0C
+#585
+1C
+#590
+0C
+#595
+1C
+#600
+0C
+#605
+1C
+#610
+0C
+#615
+1C
+#620
+0C
+#625
+1C
+#630
+0C
+#635
+1C
+#640
+0C
+#645
+1C

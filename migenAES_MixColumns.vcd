@@ -1,0 +1,381 @@
+$var wire 1 ! MIX_valid_data_in $end
+$var wire 8 " MIX_data_in0 $end
+$var wire 8 # MIX_data_in1 $end
+$var wire 8 $ MIX_data_in2 $end
+$var wire 8 % MIX_data_in3 $end
+$var wire 8 & MIX_data_in4 $end
+$var wire 8 ' MIX_data_in5 $end
+$var wire 8 ( MIX_data_in6 $end
+$var wire 8 ) MIX_data_in7 $end
+$var wire 8 * MIX_data_in8 $end
+$var wire 8 + MIX_data_in9 $end
+$var wire 8 , MIX_data_in10 $end
+$var wire 8 - MIX_data_in11 $end
+$var wire 8 . MIX_data_in12 $end
+$var wire 8 / MIX_data_in13 $end
+$var wire 8 0 MIX_data_in14 $end
+$var wire 8 1 MIX_data_in15 $end
+$var wire 1 2 MIX_valid_data_out $end
+$var wire 8 3 statem0 $end
+$var wire 8 4 statem1 $end
+$var wire 8 5 statem2 $end
+$var wire 8 6 statem3 $end
+$var wire 8 7 statem4 $end
+$var wire 8 8 statem5 $end
+$var wire 8 9 statem6 $end
+$var wire 8 : statem7 $end
+$var wire 8 ; statem8 $end
+$var wire 8 < statem9 $end
+$var wire 8 = statem10 $end
+$var wire 8 > statem11 $end
+$var wire 8 ? statem12 $end
+$var wire 8 @ statem13 $end
+$var wire 8 A statem14 $end
+$var wire 8 B statem15 $end
+$var wire 8 C state_mulx20 $end
+$var wire 8 D state_mulx21 $end
+$var wire 8 E state_mulx22 $end
+$var wire 8 F state_mulx23 $end
+$var wire 8 G state_mulx24 $end
+$var wire 8 H state_mulx25 $end
+$var wire 8 I state_mulx26 $end
+$var wire 8 J state_mulx27 $end
+$var wire 8 K state_mulx28 $end
+$var wire 8 L state_mulx29 $end
+$var wire 8 M state_mulx210 $end
+$var wire 8 N state_mulx211 $end
+$var wire 8 O state_mulx212 $end
+$var wire 8 P state_mulx213 $end
+$var wire 8 Q state_mulx214 $end
+$var wire 8 R state_mulx215 $end
+$var wire 8 S state_mulx30 $end
+$var wire 8 T state_mulx31 $end
+$var wire 8 U state_mulx32 $end
+$var wire 8 V state_mulx33 $end
+$var wire 8 W state_mulx34 $end
+$var wire 8 X state_mulx35 $end
+$var wire 8 Y state_mulx36 $end
+$var wire 8 Z state_mulx37 $end
+$var wire 8 [ state_mulx38 $end
+$var wire 8 \ state_mulx39 $end
+$var wire 1 ] sys_clk $end
+$var wire 8 ^ state_mulx310 $end
+$var wire 8 _ state_mulx311 $end
+$var wire 8 ` state_mulx312 $end
+$var wire 8 a state_mulx313 $end
+$var wire 8 b state_mulx314 $end
+$var wire 8 c state_mulx315 $end
+$var wire 8 d MIX_data_out14 $end
+$var wire 8 e MIX_data_out15 $end
+$var wire 8 f MIX_data_out0 $end
+$var wire 8 g MIX_data_out1 $end
+$var wire 8 h MIX_data_out2 $end
+$var wire 8 i MIX_data_out3 $end
+$var wire 8 j MIX_data_out4 $end
+$var wire 8 k MIX_data_out5 $end
+$var wire 8 l MIX_data_out6 $end
+$var wire 8 m MIX_data_out7 $end
+$var wire 8 n MIX_data_out8 $end
+$var wire 8 o MIX_data_out9 $end
+$var wire 8 p MIX_data_out10 $end
+$var wire 8 q MIX_data_out11 $end
+$var wire 8 r MIX_data_out12 $end
+$var wire 8 s MIX_data_out13 $end
+$dumpvars
+0!
+b00000000 "
+b00000000 #
+b00000000 $
+b00000000 %
+b00000000 &
+b00000000 '
+b00000000 (
+b00000000 )
+b00000000 *
+b00000000 +
+b00000000 ,
+b00000000 -
+b00000000 .
+b00000000 /
+b00000000 0
+b00000000 1
+02
+b00000000 3
+b00000000 4
+b00000000 5
+b00000000 6
+b00000000 7
+b00000000 8
+b00000000 9
+b00000000 :
+b00000000 ;
+b00000000 <
+b00000000 =
+b00000000 >
+b00000000 ?
+b00000000 @
+b00000000 A
+b00000000 B
+b00000000 C
+b00000000 D
+b00000000 E
+b00000000 F
+b00000000 G
+b00000000 H
+b00000000 I
+b00000000 J
+b00000000 K
+b00000000 L
+b00000000 M
+b00000000 N
+b00000000 O
+b00000000 P
+b00000000 Q
+b00000000 R
+b00000000 S
+b00000000 T
+b00000000 U
+b00000000 V
+b00000000 W
+b00000000 X
+b00000000 Y
+b00000000 Z
+b00000000 [
+b00000000 \
+0]
+b00000000 ^
+b00000000 _
+b00000000 `
+b00000000 a
+b00000000 b
+b00000000 c
+b00000000 d
+b00000000 e
+b00000000 f
+b00000000 g
+b00000000 h
+b00000000 i
+b00000000 j
+b00000000 k
+b00000000 l
+b00000000 m
+b00000000 n
+b00000000 o
+b00000000 p
+b00000000 q
+b00000000 r
+b00000000 s
+$end
+#0
+#5
+1!
+b00110001 "
+b00110010 #
+b00110011 $
+b00110100 %
+b00101110 &
+b00101110 '
+b00101110 (
+b00101110 )
+b00101110 *
+b00101110 +
+b00101110 ,
+b00101110 -
+b00101110 .
+b00101110 /
+b00101110 0
+b00101110 1
+12
+b00110001 3
+b00101110 4
+b00101110 5
+b00101110 6
+b00110010 7
+b00101110 8
+b00101110 9
+b00101110 :
+b00110011 ;
+b00101110 <
+b00101110 =
+b00101110 >
+b00110100 ?
+b00101110 @
+b00101110 A
+b00101110 B
+b01100010 C
+b01011100 D
+b01011100 E
+b01011100 F
+b01100100 G
+b01011100 H
+b01011100 I
+b01011100 J
+b01100110 K
+b01011100 L
+b01011100 M
+b01011100 N
+b01101000 O
+b01011100 P
+b01011100 Q
+b01011100 R
+b01010011 S
+b01110010 T
+b01110010 U
+b01110010 V
+b01010110 W
+b01110010 X
+b01110010 Y
+b01110010 Z
+b01010101 [
+b01110010 \
+1]
+b01110010 ^
+b01110010 _
+b01011100 `
+b01110010 a
+b01110010 b
+b01110010 c
+#10
+0]
+#15
+b00110001 d
+b00010000 e
+1]
+b00101110 f
+b00110100 g
+b00110100 h
+b00011010 i
+b00100111 j
+b00110011 k
+b00110011 l
+b00010100 m
+b00100100 n
+b00110010 o
+b00110010 p
+b00010110 q
+b00100001 r
+b00110001 s
+#20
+0]
+#25
+1]
+#30
+0]
+#35
+1]
+#40
+0]
+#45
+1]
+#50
+0]
+#55
+1]
+#60
+0]
+#65
+1]
+#70
+0]
+#75
+1]
+#80
+0]
+#85
+1]
+#90
+0]
+#95
+1]
+#100
+0]
+#105
+1]
+#110
+0]
+#115
+1]
+#120
+0]
+#125
+1]
+#130
+0]
+#135
+1]
+#140
+0]
+#145
+1]
+#150
+0]
+#155
+1]
+#160
+0]
+#165
+1]
+#170
+0]
+#175
+1]
+#180
+0]
+#185
+1]
+#190
+0]
+#195
+1]
+#200
+0]
+#205
+1]
+#210
+0]
+#215
+1]
+#220
+0]
+#225
+1]
+#230
+0]
+#235
+1]
+#240
+0]
+#245
+1]
+#250
+0]
+#255
+1]
+#260
+0]
+#265
+1]
+#270
+0]
+#275
+1]
+#280
+0]
+#285
+1]
+#290
+0]
+#295
+1]
+#300
+0]
+#305
+1]
+#310
+0]
+#315
+1]
+#320
+0]
+#325
+1]
